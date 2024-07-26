@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('phone_number');
             $table->string('course_name');
             $table->string('daily_schedule');
+            $table->string('lecture_venue');
             $table->time('reminder_time');
             $table->timestamps();
         });
