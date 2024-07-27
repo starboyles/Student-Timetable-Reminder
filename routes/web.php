@@ -2,11 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 
-Route::get('/', function () {
-    return view('add-student');
-});
-Route::get('/add-student', [StudentController::class, 'addStudentForm']);
-Route::post('/add-student', [StudentController::class, 'addStudent']);
-Route::get('/send-reminder', [StudentController::class, 'sendReminder']);
+Route::get('/', [StudentController::class, 'showForm'])->name('show-form');
+Route::post('/add-student', [StudentController::class, 'addStudent'])->name('add-student');
 Route::get('/send-timetable-reminders', [StudentController::class, 'sendTimetableReminders'])
     ->name('send-timetable-reminders');
