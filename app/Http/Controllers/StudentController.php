@@ -9,7 +9,7 @@ use Twilio\Rest\Client;
 
 class StudentController extends Controller
 {
-   public function addStudentForm()
+   public function showForm()
    {
        return view('add-student');
    }
@@ -63,11 +63,10 @@ class StudentController extends Controller
        $client = new Client($twilioAccountSid, $twilioAuthToken);
 
        $message = "Hi $student->name, this is a reminder to get ready for class: $student->course_name. Daily_schedule: $student->daily_schedule.";
- $client->calls->create(
+       $client->calls->create(
            $student->phone_number,
            $twilioPhoneNumber,
            ['twiml' => '<Response><Say>  ' . $message  . '.</Say></Response>']
        );
    }
 }
-
