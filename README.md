@@ -26,5 +26,4 @@ Student Timetable Reminder App is a laravel based simple App that automates clas
 - For Windows users, also ensure Docker Desktop is configured to use the WSL2 backend.
 
 ## Setting up
-- Clone the repo:
-- ```https://github.com/your-username/student-timetable-reminder.git ```
+- Clone the repo: ```https://github.com/your-username/student-timetable-reminder.git ```
