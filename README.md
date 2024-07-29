@@ -27,3 +27,5 @@ Student Timetable Reminder App is a laravel based simple App that automates clas
 
 ## Setting up
 - Clone the repo: ```https://github.com/your-username/student-timetable-reminder.git ```
+- Navigate to the project directory: ```cd student_timetable_reminder```
+- 
