@@ -10,7 +10,7 @@ Student Timetable Reminder App is a laravel based simple App that automates clas
 
 ## Technolgies
 - Laravel (PHP)
-- PostgreSQL db
+- PostgreSQL
 - Twilio API (for phone call reminders)
 - Ngrok (for local development and testing)
 
