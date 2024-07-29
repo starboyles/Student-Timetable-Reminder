@@ -4,6 +4,6 @@ Student Timetable Reminder App is a laravel based simple App that automates clas
 
 ## Features
 - Student registration
-- Simple Timetable management system
+- Simple Timetable management system (atm it is for a single course).
 - Automated reminders for upcoming classes
 - Phone call reminders using Twilio
