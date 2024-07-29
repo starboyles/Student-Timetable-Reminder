@@ -24,3 +24,7 @@ Student Timetable Reminder App is a laravel based simple App that automates clas
 - Localtunnel or Ngrok installed.
 - ​​In case you are a Windows user, install and enable Windows Subsystem for Linux 2 (WSL2) to help launch Linux binary executables natively on your Microsoft OS.
 - For Windows users, also ensure Docker Desktop is configured to use the WSL2 backend.
+
+## Setting up
+- Clone the repo:
+- ```https://github.com/your-username/student-timetable-reminder.git ```
